@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen"/>
+    <title>DC vs Marvel Survey</title> 
+</head>
+
+<div class=header-div>
+    <header>
+      <h1 id="title">DC vs Marvel Survey</h1>
+        <p id="description"><i>Thank you for your help in aiding our research!</i></p></header></div>
+            <div class="container">
+                <form id="survey-form" id="name" id="email">
+                    <div class="form-group">
+                        <label for="name" id="name-label">Name:</label>
+                            <input  
+                            type="text"
+                            name="name"
+                            id="name"
+                            class="form-control"
+                            placeholder="Enter your Name"
+                            required>
+                                    </input>
+          </div>
+            <div class="form-group">
+              <label id="email-label" for="email">Email:</label>
+                    <input  
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+                placeholder="Enter your email"required>
+                     </input>
+            </div>
+              <div class="form-group">
+                <label for="number" id="number-label">Age:</label>
+                <input
+                       type="number"
+                       name="age"
+                       id="number"
+                       class="form-control"
+                       placeholder="Enter your age"
+                       min="10"
+                       max="99"
+                       required>
+                       </input>
+            </div>
+            <div class="form-group">
+              <p>Which character do you like the most?</p>
+              <select id="dropdown" name="character" class="form-control" required>
+                <option disabled selected value>Select Favorite Character</option>
+                <option value="wolverine">Wolverine</option>
+                <option value="batman">Batman</option>
+                <option value="ironman">Ironman</option>
+                <option value="superman">Superman</option>
+                <option value="spiderman">Spiderman</option>
+                <option value="green lantern">Green Lantern</option>
+                <option value="hulk">Hulk</option>
+              <option value="theflash">The Flash</option></select>
+                </div>
+              <div class="form-group">
+                <p> Avengers or Justice League? </p> 
+               <label>
+                  <input
+             name="avengers-vs-marvel"
+             value="Avengers"
+             type="radio"
+             class="input-radio"
+             checked />
+                  Avengers</label>
+                <label>
+                  <input
+             name="avengers-vs-marvel"
+             value="Justice League"
+             type="radio"
+             class="input-radio"
+             checked />Justice League
+                </label>
+                 <label
+           ><input
+             name="avengers-vs-marvel"
+             value="not-sure"
+             type="radio"
+             class="input-radio"
+                   >Not sure</label></input> 
+           </div>
+               <div class="form-group">
+                  <p> Which superpowers would like to have?<span class="clue">(Check all that apply)</span>
+         </p>
+                  <label>
+                    <input
+                           type="checkbox"
+                           name="have"
+                           value="flight"
+                           class="input-checkbox">Flight</input>
+                  </label>
+                          <label>
+                    <input
+                           type="checkbox"
+                           name="have"
+                           value="superstrength"
+                           class="input-checkbox">Superstrength</input>
+                  </label> 
+   <label>
+                    <input
+                           type="checkbox"
+                           name="have"
+                           value="superspeed"
+                           class="input-checkbox">Superspeed</input>
+                  </label>
+     <label>
+                    <input
+                           type="checkbox"
+                           name="have"
+                           value="Technology"
+                           class="input-checkbox">Technology</input>
+                  </label>
+    <label>
+                    <input
+                           type="checkbox"
+                           name="have"
+                           value="telepathy"
+                           class="input-checkbox">Telepathy</input>
+   </label></div>
+   <div class="form-group">Additional Feedback<label for="textarea-label" id="textarea"></label>
+     <textarea
+            id="comments"
+            type="input-textarea"
+            name="textarea"
+               placeholder="Add your comments here..."></textarea>
+                 </div>
+           <div class="form-group">
+         <button type="submit" id="submit" class="submit-button">
+           Submit
+         </button>
+             </form>
+       </div>
+     
+            
+   
+                         
+                           
+                           
+             
